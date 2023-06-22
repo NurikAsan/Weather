@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="weather__dark">
+        <div class="container">
+            <nav class="nav">
+                <div class="weather__dark-header header">
+                    <a href="#" class="header__link"><img src="images/logo-weather.svg" alt="logo-weather"
+                            class="header-img"></a>
+                    <a href="#" class="nav__link-text">React weather</a>
+                </div>
+                <div class="nav__right">
+                    <a href="#" class="nav__right-link"><img src="images/Vector.svg" alt="Vector" class="nav__img"></a>
+                    <select class="nav__selection">
+                        <option class="nav__selection-text" selected>Выбрать город</option>
+                    </select>
+                </div>
+            </nav>
+            <main class="main">
+                <section class="section__now">
+                    <div class="section__now-left">
+                        <div class="section__now-left-wrapper">
+                            <h1 class="section__now-left-title"><span class="gradus">20°</span><span
+                                    class="time">Сегодня</span></h1>
+                            <p class="section__now-left-text">Время: 21:54</p>
+                            <p class="section__now-left-text">Город: Санкт-Петербург</p>
+                        </div>
+                        <img class="section__now-left-img" src="images/sun.svg" alt="sun">
+                    </div>
+                    <div class="section__now-right">
+                        <div class="section__now-right-wrapper">
+                            <table>
+                                <tr class="section__now-right-row">
+                                    <td class="section__now-right-column">
+                                        <div class="section__now-imgblock">
+                                            <img src="images/thermometer 1.svg" alt="thermometer">
+                                        </div>
+                                    </td>
+                                    <td class="section__now-right-col">Температура</td>
+                                    <td class="section__now-right-column">20° - ощущается как 17°</td>
+                                </tr>
+                                <tr class="section__now-right-row">
+                                    <td class="section__now-right-column">
+                                        <div class="section__now-imgblock">
+                                            <img src="images/humidity 1.svg" alt="humidity">
+                                        </div>
+                                    </td>
+                                    <td class="section__now-right-col">Давление </td>
+                                    <td class="section__now-right-column">765 мм ртутного столба - нормальное</td>
+                                </tr>
+                                <tr class="section__now-right-row">
+                                    <td class="section__now-right-column">
+                                        <div class="section__now-imgblock">
+                                            <img src="images/evaporator 1.svg" alt="evaporator">
+                                        </div>
+                                    </td>
+
+                                    <td class="section__now-right-col">Осадки</td>
+                                    <td class="section__now-right-column">Без осадков</td>
+                                </tr>
+                                <tr class="section__now-right-row">
+                                    <td class="section__now-right-column">
+                                        <div class="section__now-imgblock">
+                                            <img src="images/wind 1.svg" alt="wind">
+                                        </div>
+                                    </td>
+
+                                    <td class="section__now-right-col">Ветер</td>
+                                    <td class="section__now-right-column">3 м/с юго-запад - легкий ветер</td>
+                                </tr>
+                            </table>
+                            <img src="images/Cloud image.svg" alt="Cloud" class="section__now-right-img">
+                        </div>
+                    </div>
+                </section>
+                <section class="section__tomorrow">
+                    <div class="section__tomorrow-nav">
+                        <div class="section__tomorrow-left">
+                            <button class="btn">На неделю</button>
+                            <button class="btn">На месяц</button>
+                            <button class="btn">На 10 дней</button>
+                        </div>
+                        <div class="section__tomorrow-right">
+                            <button class="btn btn-last">Отменить</button>
+                        </div>
+                    </div>
+                    <div class="section__tomorrow-show">
+                        <div class="section__tomorrow-show-block">
+                            <div class="wrap">
+                                <h3 class="title__cards">
+                                    Сегодня<span>28 авг</span>
+                                </h3>
+                                <img src="images/wheater 1.svg" alt="wheather">
+                                <p>+18°<span class="p-span">+15°</span></p>
+                                <span>Облачно</span>
+                            </div>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap">
+                            <h3 class="title__cards">
+                                Завтра<span>29 авг</span>
+                            </h3>
+                            <img src="images/wheater 2.svg" alt="wheather">
+                            <p>+15°<span class="p-span">+10°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap">
+                            <h3 class="title__cards">
+                                Пн<span>28 авг</span>
+                            </h3>
+                            <img src="images/wheater 1.svg" alt="wheather">
+                            <p>+18°<span class="p-span">+15°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap">
+                            <h3 class="title__cards">
+                                Вт<span>28 авг</span>
+                            </h3>
+                            <img src="images/wheater 1.svg" alt="wheather">
+                            <p>+18°<span class="p-span">+15°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap">
+                            <h3 class="title__cards">
+                                Ср<span>28 авг</span>
+                            </h3>
+                            <img src="images/wheater 1.svg" alt="wheather">
+                            <p>+18°<span class="p-span">+15°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap">
+                            <h3 class="title__cards">
+                                Чт<span>28 авг</span>
+                            </h3>
+                            <img src="images/wheater 1.svg" alt="wheather">
+                            <p>+18°<span class="p-span">+15°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap">
+                            <h3 class="title__cards">
+                                Пт<span>28 авг</span>
+                            </h3>
+                            <img src="images/wheater 1.svg" alt="wheather">
+                            <p>+18°<span class="p-span">+15°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </section>
+    <section class="weather__white">
+        <div class="container">
+            <nav class="nav">
+                <div class="weather__dark-header header">
+                    <a href="#" class="header__link"><img src="images/logo-weather.svg" alt="logo-weather"
+                            class="header-img"></a>
+                    <a href="#" class="nav__link-text">React weather</a>
+                </div>
+                <div class="nav__right">
+                    <a href="#" class="nav__right-link"><img src="images/Vector.svg" alt="Vector" class="nav__img"></a>
+                    <select class="nav__selection white-selection">
+                        <option class="nav__selection-text" selected>Выбрать город</option>
+                    </select>
+                </div>
+            </nav>
+            <main class="main">
+                <section class="section__now">
+                    <div class="section__now-left fill">
+                        <div class="section__now-left-wrapper">
+                            <h1 class="section__now-left-title"><span class="gradus">20°</span><span
+                                    class="time fill-black">Сегодня</span></h1>
+                            <p class="section__now-left-text">Время: 21:54</p>
+                            <p class="section__now-left-text">Город: Санкт-Петербург</p>
+                        </div>
+                        <img class="section__now-left-img" src="images/sun.svg" alt="sun">
+                    </div>
+                    <div class="section__now-right fill">
+                        <div class="section__now-right-wrapper">
+                            <table>
+                                <tr class="section__now-right-row">
+                                    <td class="section__now-right-column">
+                                        <div class="section__now-imgblock">
+                                            <img src="images/thermometer 1.svg" alt="thermometer">
+                                        </div>
+                                    </td>
+                                    <td class="section__now-right-col">Температура</td>
+                                    <td class="section__now-right-column fill-black">20° - ощущается как 17°</td>
+                                </tr>
+                                <tr class="section__now-right-row">
+                                    <td class="section__now-right-column">
+                                        <div class="section__now-imgblock">
+
+                                            <img src="images/humidity 1.svg" alt="humidity">
+                                        </div>
+                                    <td class="section__now-right-col">Давление </td>
+                                    </td>
+                                    <td class="section__now-right-column fill-black">765 мм ртутного столба - нормальное
+                                    </td>
+                                </tr>
+                                <tr class="section__now-right-row">
+                                    <td class="section__now-right-column">
+                                        <div class="section__now-imgblock">
+                                            <img src="images/evaporator 1.svg" alt="Ellipse">
+                                        </div>
+
+                                    </td>
+                                    <td class="section__now-right-col">Осадки</td>
+                                    <td class="section__now-right-column fill-black">Без осадков</td>
+                                </tr>
+                                <tr class="section__now-right-row">
+                                    <td class="section__now-right-column">
+                                        <div class="section__now-imgblock">
+                                            <img src="images/wind 1.svg" alt="wind">
+                                        </div>
+
+                                    </td>
+                                    <td class="section__now-right-col">Ветер</td>
+                                    <td class="section__now-right-column fill-black">3 м/с юго-запад - легкий ветер</td>
+                                </tr>
+                            </table>
+                            <img src="images/Cloud image.svg" alt="Cloud" class="section__now-right-img">
+                        </div>
+                    </div>
+                </section>
+                <section class="section__tomorrow">
+                    <div class="section__tomorrow-nav">
+                        <div class="section__tomorrow-left">
+                            <button class="btn fill fill-black">На неделю</button>
+                            <button class="btn fill fill-black">На месяц</button>
+                            <button class="btn fill fill-black">На 10 дней</button>
+                        </div>
+                        <div class="section__tomorrow-right">
+                            <button class="btn fill fill-black btn-last">Отменить</button>
+                        </div>
+                    </div>
+                    <div class="section__tomorrow-show fill">
+                        <div class="section__tomorrow-show-block fill-blue">
+                            <div class="wrap">
+                                <h3 class="title__cards fill-black">
+                                    Сегодня<span>28 авг</span>
+                                </h3>
+                                <img src="images/wheater 1.svg" alt="wheather">
+                                <p class="fill-black">+18°<span class="p-span">+15°</span></p>
+                                <span>Облачно</span>
+                            </div>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap fill-blue">
+                            <h3 class="title__cards fill-black">
+                                Завтра<span>29 авг</span>
+                            </h3>
+
+                            <img src="images/wheater 2.svg" alt="wheather">
+                            <p class="fill-black">+15°<span class="p-span">+10°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap fill-blue">
+                            <h3 class="title__cards fill-black">
+                                Пн<span>28 авг</span>
+                            </h3>
+                            <img src="images/wheater 1.svg" alt="wheather">
+                            <p class="fill-black">+18°<span class="p-span">+15°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap fill-blue">
+                            <h3 class="title__cards fill-black">
+                                Вт<span>28 авг</span>
+                            </h3>
+                            <img src="images/wheater 1.svg" alt="wheather">
+                            <p class=" fill-black">+18°<span class="p-span">+15°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap fill-blue">
+                            <h3 class="title__cards fill-black">
+                                Ср<span>28 авг</span>
+                            </h3>
+                            <img src="images/wheater 1.svg" alt="wheather">
+                            <p class="fill-black">+18°<span class="p-span">+15°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap fill-blue">
+                            <h3 class="title__cards fill-black">
+                                Чт<span>28 авг</span>
+                            </h3>
+                            <img src="images/wheater 1.svg" alt="wheather">
+                            <p class="fill-black">+18°<span class="p-span">+15°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                        <div class="section__tomorrow-show-block wrap fill-blue">
+                            <h3 class="title__cards fill-black">
+                                Пт<span>28 авг</span>
+                            </h3>
+                            <img src="images/wheater 1.svg" alt="wheather">
+                            <p class="fill-black">+18°<span class="p-span">+15°</span></p>
+                            <span>Облачно</span>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </section>
+</body>
+
+</html>
